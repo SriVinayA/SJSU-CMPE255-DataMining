@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+.center {
+    text-align: center;
+}
+
+.search-container {
+    margin: 40px 0;
+}
+
+#search-input {
+    padding: 12px;
+    width: 70%;
+    margin-right: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    transition: border 0.3s ease-in-out;
+}
+
+#search-input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-item {
+    margin: 10px;
+    padding: 15px;
+    width: calc(25% - 40px);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid-item img {
+    max-width: 100%; /* Ensures the image doesn't overflow its container */
+    margin-bottom: 15px; /* Space between the image and the title/content below it */
+    border-radius: 5px; /* Slight border radius to soften edges */
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
+.grid-item a {
+    display: block;
+    margin: 10px 0; /* adjusted margin */
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.grid-item a:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .grid-item {
+        width: calc(50% - 30px); /* Adjusted for added padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-item {
+        width: calc(100% - 30px); /* Adjusted for added padding */
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

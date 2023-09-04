@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    
+    <!-- SEO meta tags -->
+    <meta name="description" content="Find delicious recipes with Recipe Finder.">
+    <meta name="keywords" content="recipes, food, cooking, meals">
+    <link rel="icon" href="path-to-your-favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="center">Recipe Finder</h1>
+    </header>
+
+    <nav>
+        <!-- Potential navigation links in the future -->
+    </nav>
+
+    <main>
+        <section class="search-container center">
+            <input type="text" id="search-input" placeholder="Search for recipes...">
+            <button id="search-button">Search</button>
+        </section>
+        
+        <div class="loader" id="loader" hidden></div>
+
+        <section id="results-grid" class="grid">
+            <!-- Results will be appended here -->
+        </section>
+        
+        <button id="load-more" style="display:none;">Load More</button>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

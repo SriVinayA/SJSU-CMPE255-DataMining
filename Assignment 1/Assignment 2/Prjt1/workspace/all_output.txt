@@ -1,0 +1,111 @@
+The core files, classes, functions, and methods that will be necessary are:
+
+1. index.html: This is the main HTML file that will contain the structure of the 'Recipe Finder App'.
+2. style.css: This CSS file will contain all the styles for the 'Recipe Finder App' to make it look clean and responsive.
+3. script.js: This JavaScript file will contain the functionality of the 'Recipe Finder App', including fetching and displaying recipes from "TheMealDB".
+
+index.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="center">Recipe Finder</h1>
+    </header>
+    <main>
+        <div class="search-container center">
+            <input type="text" id="search-input" placeholder="Search for recipes...">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="results-grid" class="grid">
+            <!-- Results will be appended here by script.js -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+style.css
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    text-align: center;
+}
+
+.search-container {
+    margin: 20px 0;
+}
+
+#search-input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+#search-button {
+    padding: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-item {
+    margin: 10px;
+    width: calc(25% - 20px);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .grid-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-item {
+        width: calc(100% - 20px);
+    }
+}
+```
+
+script.js
+```javascript
+document.getElementById('search-button').addEventListener('click', function() {
+    var searchInput = document.getElementById('search-input').value;
+    fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=' + searchInput)
+    .then(response => response.json())
+    .then(data => {
+        var resultsGrid = document.getElementById('results-grid');
+        resultsGrid.innerHTML = '';
+        data.meals.forEach(function(meal) {
+            var gridItem = document.createElement('div');
+            gridItem.className = 'grid-item';
+            gridItem.innerHTML = `
+                <img src="${meal.strMealThumb}" alt="${meal.strMeal}">
+                <h2>${meal.strMeal}</h2>
+                <p>${meal.strInstructions.substring(0, 100)}...</p>
+            `;
+            resultsGrid.appendChild(gridItem);
+        });
+    });
+});
+```
