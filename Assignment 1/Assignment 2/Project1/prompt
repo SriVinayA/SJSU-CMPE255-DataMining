@@ -1,1 +1,19 @@
-Construct a 'Recipe Finder App' in HTML with a centered 'Recipe Finder' header, a search input next to a 'Search' button, and a grid below for results. CSS for a responsive and clean look and JavaScript to fetch and display recipes based on user input.
+Design a simple web application named "Recipe Finder" with the following functionalities:
+
+html:
+The main page should have a title "Recipe Finder".
+Provide a search input box and a button to initiate the search.
+Display the search results in a grid format. Each item in the grid should display an image of the recipe, the name of the recipe, a short description (or instruction snippet), and a "Read More" link.
+Implement a "Load More" button to fetch more recipes.
+Add responsive design to accommodate different device sizes.
+Incorporate a visually hidden loader that appears during data fetching.
+
+javascript:
+The backend (in this case, client-side JavaScript) should handle the search query.
+Use the API endpoint: https://www.themealdb.com/api/json/v1/1/search.php with parameters for search and pagination.
+Implement error handling for API requests.
+
+css:
+Use muted colors for the background and blue shades for interactive elements.
+Ensure smooth transitions for hover effects.
+Utilize modern CSS practices for layout and design.
