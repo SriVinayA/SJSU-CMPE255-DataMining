@@ -36,4 +36,4 @@ While the models provided insights into the duration of UFO sightings, they also
 For a detailed walkthrough of this analysis, including interactive insights and visualizations, check out the [Medium article](https://medium.com/@SriVinayA/from-chat-to-chart-unraveling-ufo-data-insights-with-chatgpt-839fa941d9ef).
 
 ## Acknowledgments
-A special shout-out to [ChatGPT by OpenAI](https://chat.openai.com/share/7a03f222-84ca-4f19-81ef-d9a94078ac50) for making this interactive analysis possible.
+A special shout-out to [ChatGPT by OpenAI](https://drive.google.com/file/d/1595v3itAu90Y_3pp4E5nRolMoLcZyxWi/view?usp=sharing) for making this interactive analysis possible.
