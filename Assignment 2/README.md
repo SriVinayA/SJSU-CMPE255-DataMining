@@ -26,6 +26,9 @@ Our objective was clear: select a dataset from Kaggle, implement it in PyCaret's
 ## Datasets
 For this segment, we once again turned to Kaggle to source a dataset that would be both challenging and insightful for our analysis.
 
+## Gradio Demo
+[video link](https://drive.google.com/file/d/1q54bqk_h5A0ftXG1_ItjeF7YqxZ0UMGJ/view?usp=sharing)
+
 ## References
 - [PyCaret Official Documentation](https://pycaret.gitbook.io/docs/)
 - [PyCaret Tutorials](https://pycaret.gitbook.io/docs/get-started/tutorials)
