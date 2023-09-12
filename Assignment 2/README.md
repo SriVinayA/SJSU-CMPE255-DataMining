@@ -13,7 +13,6 @@ Our exploration was based on a dataset we sourced from Kaggle, a renowned platfo
 ## References
 - [Extract knowledge from your data with JADBio AutoML](https://jadbio.com/extract-knowledge-from-your-data-with-jadbio-automl-free/)
 - [JADBio's YouTube Channel](https://www.youtube.com/channel/UCuvLxmd6r7uQJqJqzfv1sYHwg/videos)
-- [Specific JADBio Tutorial](https://www.youtube.com/watch?v=CgFD8ZJeYOs&list=PLiUEs1Sfl_PWAoTZ2h9KtWcwD8flSkxBM&ab_channel=JADBio)
 
 ---
 
