@@ -22,17 +22,17 @@ All required materials for this assignment are housed within the `Assignment 3` 
 
 ### Assignment 3.1
 - `CRISP-DM.ipynb`: The Google Colab project for the CRISP-DM methodology.
-- `dataset.csv`: Dataset utilized for the CRISP-DM project.
+- `dataset.csv`: Kaggle dataset utilized for the CRISP-DM project. [Dataset Link](https://www.kaggle.com/datasets/prakharrathi25/banking-dataset-marketing-targets)
 - `CRISP_DM_Research Paper.pdf`: Research paper associated with the CRISP-DM project.
 
 ### Assignment 3.2
 - `SEMMA.ipynb`: The Google Colab project for the SEMMA methodology.
-- `dataset.csv`: Dataset utilized for the SEMMA project.
+- `dataset.csv`: Kaggle dataset utilized for the SEMMA project. [Dataset Link](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023)
 - `SEMMA_Research Paper.pdf`: Research paper associated with the SEMMA project.
 
 ### Assignment 3.3
 - `KDD.ipynb`: The Google Colab project for the KDD methodology.
-- `dataset.csv`: Dataset utilized for the KDD project.
+- `dataset.csv`: Kaggle dataset utilized for the KDD project. [Dataset Link](https://www.kaggle.com/datasets/whenamancodes/impacts-of-energy-production)
 - `KDD_Research Paper.pdf`: Research paper associated with the KDD project.
 
 ## Medium Articles Compilation
