@@ -18,7 +18,7 @@ Additionally, for every methodology:
 
 All required materials for this assignment are housed within the `Assignment 3` directory in the provided GitHub repository. The structure is as follows:
 
-- `README.md`: This document, detailing assignment instructions.
+- `README.md`: This document, details assignment instructions.
 
 ### Assignment 3.1
 - `CRISP-DM.ipynb`: The Google Colab project for the CRISP-DM methodology.
