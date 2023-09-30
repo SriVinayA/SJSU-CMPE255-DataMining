@@ -16,21 +16,21 @@ Additionally, for every methodology:
 
 ## Repository Structure & Deliverables
 
-All required materials for this assignment are housed within the `Assignment 3.1` directory in the provided GitHub repository. The structure is as follows:
+All required materials for this assignment are housed within the `Assignment 3` directory in the provided GitHub repository. The structure is as follows:
 
 - `README.md`: This document, detailing assignment instructions.
 
-### CRISP-DM
+### Assignment 3.1
 - `CRISP-DM.ipynb`: The Google Colab project for the CRISP-DM methodology.
 - `dataset.csv`: Dataset utilized for the CRISP-DM project.
 - `CRISP_DM_Research Paper.pdf`: Research paper associated with the CRISP-DM project.
 
-### SEMMA
+### Assignment 3.2
 - `SEMMA.ipynb`: The Google Colab project for the SEMMA methodology.
 - `dataset.csv`: Dataset utilized for the SEMMA project.
 - `SEMMA_Research Paper.pdf`: Research paper associated with the SEMMA project.
 
-### KDD
+### Assignment 3.3
 - `KDD.ipynb`: The Google Colab project for the KDD methodology.
 - `dataset.csv`: Dataset utilized for the KDD project.
 - `KDD_Research Paper.pdf`: Research paper associated with the KDD project.
