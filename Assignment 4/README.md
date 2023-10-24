@@ -63,9 +63,9 @@ All required materials for this assignment are housed within the `Assignment 4` 
 - `dataset.csv`: Kaggle dataset utilized for the EDA Assignment. [Dataset Link](https://www.kaggle.com/datasets/shivam2503/diamonds/)
 
 ### Assignment 4.2
-- `SEMMA.ipynb`: The Google Colab project for the Auto EDA Assignment.
+- `DM_Assignment_4_2.ipynb`: The Google Colab project for the Auto EDA Assignment.
 - `dataset.csv`: Kaggle dataset utilized for the Auto EDA Assignment. [Dataset Link](https://www.kaggle.com/datasets/sukhenwaghmare/zomato-eda)
 
 ### Assignment 4.3
-- `KDD.ipynb`: The Google Colab project for the Apache Beam Assignment.
+- `DM_Assignment_4_3.ipynb`: The Google Colab project for the Apache Beam Assignment.
 - `dataset.csv`: Kaggle dataset utilized for the Apache Beam Assignment. [Dataset Link](https://www.kaggle.com/datasets/unitednations/international-greenhouse-gas-emissions)
