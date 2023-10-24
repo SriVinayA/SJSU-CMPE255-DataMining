@@ -1,44 +1,71 @@
 # Assignment Overview
 
-This assignment focuses on the application of three renowned data science methodologies: CRISP-DM, SEMMA, and KDD. For each methodology, participants are expected to:
+## Assignment Overview
 
-1. Undertake a comprehensive project that encompasses every stage of the selected methodology.
-2. Utilize in-depth guidance from ChatGPT/GPT-4 to ensure comprehensive coverage of each stage and its respective subtasks.
-3. Manually review and refine any ChatGPT-generated code, then adapt the project into a Google Colab notebook.
-4. Craft a Medium article detailing the project's journey and outcomes.
+### Objective:
+The objective of this assignment is to explore and demonstrate your proficiency in data exploration, visualization, and stream processing using various tools and platforms like Google Colab, D3.js, Apache Beam, and others.
 
-Additionally, for every methodology:
-- Source unique datasets from places such as Kaggle or [Papers with Code](https://paperswithcode.com/datasetsLinks).
-- Adhere meticulously to the steps of the chosen methodology.
-- Compile a Medium article for the project.
-- Produce a research paper in both LaTeX and PDF formats, aiming for Arxiv submission.
-- Generate a comprehensive report, encapsulating the entire analysis from inception to deployment. If utilizing the ChatGPT GPT-4 data analysis plugin, ensure detailed responses for each section and validate them, infusing your creativity where appropriate.
+---
+
+### Assignment 1: Advanced Dataset EDA in Colab using D3.js (50% of Total Marks)
+
+**Instructions:**
+1. Choose a complex dataset from Kaggle for your exploration.
+2. Conduct an exhaustive Exploratory Data Analysis (EDA) using D3.js visualizations in a Colab notebook.
+3. Strive to showcase advanced D3.js visualization techniques.
+4. Take inspiration from EDA grandmaster examples and the class video.
+
+**Resources for Inspiration:**
+- Andrada Olteanu's EDA Projects: [Kaggle Link](https://www.kaggle.com/andradaolteanu) and [EDA Projects Code](https://www.kaggle.com/andradaolteanu/code) (Search for EDA).
+- [CSS Book Chapter 07](https://cssbook.net/chapter07.html)
+- [Unicorn Startups: Data Analysis and Visualization](https://python.plainenglish.io/unicorn-startups-data-analysis-and-visualization-377224424a6a)
+
+---
+
+### Assignment 2: Auto EDA with your Preferred Tool (25% of Total Marks)
+
+**Instructions:**
+1. Pick your favorite dataset from Kaggle.
+2. Choose an auto EDA tool of your preference (e.g., Pandas Profiler, Sweetviz, etc.).
+3. Perform an automatic EDA using the chosen tool in a Colab notebook.
+4. The final EDA should be visually appealing and engaging for the viewers.
+5. Refer to the class video for inspiration and guidelines.
+
+---
+
+### Assignment 3: Demonstrating Apache Beam Features in Colab (25% of Total Marks)
+
+**Instructions:**
+1. Showcase the core features of Apache Beam in a Colab notebook, including:
+   - Composite Transform
+   - Pipeline IO
+   - Triggers
+   - Windowing
+   - ParDo
+2. Optionally, you can use BeamML for this exercise. Check out [About BeamML](https://beam.apache.org/documentation/ml/about-ml/) and [BeamML Overview](https://beam.apache.org/documentation/ml/overview/) for guidance.
+3. Ensure your solution is creative and unique. While you can take inspiration from the provided resources, the final submission should be your original work.
+
+**Resources & Hints:**
+- [Apache Beam Tutorial by Macrometa](https://www.macrometa.com/event-stream-processing/apache-beam-tutorial)
+- [Example Colab Notebook](https://colab.sandbox.google.com/drive/1qrqbpRpfMtwosjcZQ3_qAWvBCXtzs-8D?usp=sharing)
+- [RunInference with scikit-learn](https://beam.apache.org/documentation/transforms/python/elementwise/runinference-sklearn/)
+
+---
 
 ## Repository Structure & Deliverables
 
-All required materials for this assignment are housed within the `Assignment 3` directory in the provided GitHub repository. The structure is as follows:
+All required materials for this assignment are housed within the `Assignment 4` directory in the provided GitHub repository. The structure is as follows:
 
 - `README.md`: This document, details assignment instructions.
 
-### Assignment 3.1
-- `CRISP-DM.ipynb`: The Google Colab project for the CRISP-DM methodology.
-- `dataset.csv`: Kaggle dataset utilized for the CRISP-DM project. [Dataset Link](https://www.kaggle.com/datasets/prakharrathi25/banking-dataset-marketing-targets)
-- `CRISP_DM_Research Paper.pdf`: Research paper associated with the CRISP-DM project.
+### Assignment 4.1
+- `DM_Assignment_4_1.ipynb`: The Google Colab project for the EDA Assignment.
+- `dataset.csv`: Kaggle dataset utilized for the EDA Assignment. [Dataset Link](https://www.kaggle.com/datasets/shivam2503/diamonds/)
 
-### Assignment 3.2
-- `SEMMA.ipynb`: The Google Colab project for the SEMMA methodology.
-- `dataset.csv`: Kaggle dataset utilized for the SEMMA project. [Dataset Link](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023)
-- `SEMMA_Research Paper.pdf`: Research paper associated with the SEMMA project.
+### Assignment 4.2
+- `SEMMA.ipynb`: The Google Colab project for the Auto EDA Assignment.
+- `dataset.csv`: Kaggle dataset utilized for the Auto EDA Assignment. [Dataset Link](https://www.kaggle.com/datasets/sukhenwaghmare/zomato-eda)
 
-### Assignment 3.3
-- `KDD.ipynb`: The Google Colab project for the KDD methodology.
-- `dataset.csv`: Kaggle dataset utilized for the KDD project. [Dataset Link](https://www.kaggle.com/datasets/whenamancodes/impacts-of-energy-production)
-- `KDD_Research Paper.pdf`: Research paper associated with the KDD project.
-
-## Medium Articles Compilation
-
-This section houses links to Medium articles developed based on the trio of projects undertaken in this assignment. Extracts from the Google Colab notebooks were used to enrich these articles, and assistance from ChatGPT was employed in their creation. Links to the articles are provided below:
-
-- [CRISP-DM Article](https://medium.com/@SriVinayA/unraveling-banking-data-with-the-crisp-dm-methodology-9054120d7d53)
-- [SEMMA Article](https://medium.com/@SriVinayA/deciphering-the-popularity-of-spotify-songs-with-the-semma-methodology-ac377ecb6c4b)
-- [KDD Article](https://medium.com/@SriVinayA/unlocking-insights-on-energys-water-footprint-a-deep-dive-with-kdd-methodology-for-eda-b6e6ff36f256)
+### Assignment 4.3
+- `KDD.ipynb`: The Google Colab project for the Apache Beam Assignment.
+- `dataset.csv`: Kaggle dataset utilized for the Apache Beam Assignment. [Dataset Link](https://www.kaggle.com/datasets/unitednations/international-greenhouse-gas-emissions)
