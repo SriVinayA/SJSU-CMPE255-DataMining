@@ -62,5 +62,5 @@ All required materials for this assignment are housed within the `Assignment 5` 
 
 - `DM_Assignment_5_7.ipynb`: The Google Colab project for the Graph data EDA Assignment.
    - Kaggle dataset - [Dataset Link](https://medium.com/@SriVinayA/dive-into-data-unveiling-the-depths-of-a-diving-video-dataset-ea3161b416f5)
-   - Medium Article - [Medium Article Link]()
+   - Medium Article - [Medium Article Link](https://medium.com/@SriVinayA/unlocking-insights-from-the-2015-census-tract-data-an-eda-journey-0084a67f2940)
 
