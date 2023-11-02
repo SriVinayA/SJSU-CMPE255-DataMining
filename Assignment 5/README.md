@@ -1,71 +1,66 @@
-# Assignment Overview
+# Assignment Overview: Data Preparation and Processing
 
-## Assignment Overview
+## Assignment Title: Comprehensive Data Preparation and Processing with GPT-4 Assistance
 
-### Objective:
-The objective of this assignment is to explore and demonstrate your proficiency in data exploration, visualization, and stream processing using various tools and platforms like Google Colab, D3.js, Apache Beam, and others.
+### Introduction
+In this assignment, you will work on various popular Kaggle datasets, covering a diverse range of data types, including tabular, time series, spatiotemporal, image, audio, video, and graph datasets. Your primary goal is to perform extensive Exploratory Data Analysis (EDA), data preprocessing, and data processing tasks. Additionally, you will leverage GPT-4 as a code interpreter to streamline and expedite the entire process. The assignment includes both imbalanced and balanced datasets to provide a well-rounded experience.
 
----
+### Assignment Tasks:
 
-### Assignment 1: Advanced Dataset EDA in Colab using D3.js (50% of Total Marks)
+1. **Dataset Selection:**
+   - Choose one dataset from each of the following categories:
+     i) Tabular data (e.g., NYC taxi dataset)
+     ii) Time series data
+     iii) Spatio-temporal data
+     iv) Image data (utilizing KerasCV or another popular package)
+     v) Audio data
+     vi) Video data (action recognition)
+     vii) Graph data (select any popular dataset, such as citation data)
 
-**Instructions:**
-1. Choose a complex dataset from Kaggle for your exploration.
-2. Conduct an exhaustive Exploratory Data Analysis (EDA) using D3.js visualizations in a Colab notebook.
-3. Strive to showcase advanced D3.js visualization techniques.
-4. Take inspiration from EDA grandmaster examples and the class video.
+2. **Exploratory Data Analysis (EDA):**
+   - Conduct a detailed EDA for each selected dataset.
+   - Utilize GPT-4 assistance to gather insights and generate visualizations.
+   - Employ automated EDA tools and AutoML solutions (e.g., Azure, SageMaker) when suitable.
 
-**Resources for Inspiration:**
-- Andrada Olteanu's EDA Projects: [Kaggle Link](https://www.kaggle.com/andradaolteanu) and [EDA Projects Code](https://www.kaggle.com/andradaolteanu/code) (Search for EDA).
-- [CSS Book Chapter 07](https://cssbook.net/chapter07.html)
-- [Unicorn Startups: Data Analysis and Visualization](https://python.plainenglish.io/unicorn-startups-data-analysis-and-visualization-377224424a6a)
-
----
-
-### Assignment 2: Auto EDA with your Preferred Tool (25% of Total Marks)
-
-**Instructions:**
-1. Pick your favorite dataset from Kaggle.
-2. Choose an auto EDA tool of your preference (e.g., Pandas Profiler, Sweetviz, etc.).
-3. Perform an automatic EDA using the chosen tool in a Colab notebook.
-4. The final EDA should be visually appealing and engaging for the viewers.
-5. Refer to the class video for inspiration and guidelines.
-
----
-
-### Assignment 3: Demonstrating Apache Beam Features in Colab (25% of Total Marks)
-
-**Instructions:**
-1. Showcase the core features of Apache Beam in a Colab notebook, including:
-   - Composite Transform
-   - Pipeline IO
-   - Triggers
-   - Windowing
-   - ParDo
-2. Optionally, you can use BeamML for this exercise. Check out [About BeamML](https://beam.apache.org/documentation/ml/about-ml/) and [BeamML Overview](https://beam.apache.org/documentation/ml/overview/) for guidance.
-3. Ensure your solution is creative and unique. While you can take inspiration from the provided resources, the final submission should be your original work.
-
-**Resources & Hints:**
-- [Apache Beam Tutorial by Macrometa](https://www.macrometa.com/event-stream-processing/apache-beam-tutorial)
-- [Example Colab Notebook](https://colab.sandbox.google.com/drive/1qrqbpRpfMtwosjcZQ3_qAWvBCXtzs-8D?usp=sharing)
-- [RunInference with scikit-learn](https://beam.apache.org/documentation/transforms/python/elementwise/runinference-sklearn/)
+3. **Data Preprocessing and Cleaning:**
+   - Implement comprehensive data preprocessing and cleaning steps for each dataset.
+   - Utilize GPT-4 to assist in data transformation, missing value handling, and outlier detection.
+   - Employ feature engineering techniques and feature selection methods.
 
 ---
 
 ## Repository Structure & Deliverables
 
-All required materials for this assignment are housed within the `Assignment 4` directory in the provided GitHub repository. The structure is as follows:
+All required materials for this assignment are housed within the `Assignment 5` directory in the provided GitHub repository. The structure is as follows:
 
 - `README.md`: This document, details assignment instructions.
 
-### Assignment 4.1
-- `DM_Assignment_4_1.ipynb`: The Google Colab project for the EDA Assignment.
-- `dataset.csv`: Kaggle dataset utilized for the EDA Assignment. [Dataset Link](https://www.kaggle.com/datasets/shivam2503/diamonds/)
 
-### Assignment 4.2
-- `DM_Assignment_4_2.ipynb`: The Google Colab project for the Auto EDA Assignment.
-- `dataset.csv`: Kaggle dataset utilized for the Auto EDA Assignment. [Dataset Link](https://www.kaggle.com/datasets/sukhenwaghmare/zomato-eda)
+- `DM_Assignment_5_1.ipynb`: The Google Colab project for the Tabular data EDA Assignment.
+   - Kaggle dataset - [Dataset Link](https://www.kaggle.com/datasets/iamsouravbanerjee/airline-dataset)
+   - Medium Article - [Medium Article Link](https://medium.com/@SriVinayA/️-exploratory-data-analysis-and-preparation-a-dive-into-an-airline-dataset-974ea8813a9e)
+   - 
+- `DM_Assignment_5_2.ipynb`: The Google Colab project for the Time series data EDA Assignment.
+   - Kaggle dataset - [Dataset Link](https://www.kaggle.com/datasets/thedevastator/mcdonalds-ice-cream-machines-broken-timeseries)
+   - Medium Article - [Medium Article Link](https://medium.com/@SriVinayA/exploratory-data-analysis-on-a-mcdonalds-location-dataset-57e506761562)
+   - 
+- `DM_Assignment_5_3.ipynb`: The Google Colab project for the Spatio-temporal data EDA Assignment.
+   - Kaggle dataset - [Dataset Link](https://www.kaggle.com/datasets/mayukh18/deap-deciphering-environmental-air-pollution)
+   - Medium Article - [Medium Article Link](https://medium.com/@SriVinayA/exploratory-data-analysis-data-preparation-a-deep-dive-into-pollution-data-8bd84b22443f)
+   - 
+- `DM_Assignment_5_4.ipynb`: The Google Colab project for the Image data EDA Assignment.
+   - Kaggle dataset - [Dataset Link](https://www.kaggle.com/datasets/muratkokludataset/pistachio-image-dataset)
+   - Medium Article - [Medium Article Link](https://medium.com/@SriVinayA/exploratory-data-analysis-and-preparation-of-the-pistachio-image-dataset-80237c439447)
+   - 
+- `DM_Assignment_5_5.ipynb`: The Google Colab project for the Audio data EDA Assignment.
+   - Kaggle dataset - [Dataset Link](https://www.kaggle.com/datasets/alanchn31/free-spoken-digits)
+   - Medium Article - [Medium Article Link](https://medium.com/@SriVinayA/️-exploratory-data-analysis-and-processing-of-an-audio-dataset-4ff47a0e815a)
+   - 
+- `DM_Assignment_5_6.ipynb`: The Google Colab project for the Video data EDA Assignment.
+   - Kaggle dataset - [Dataset Link](https://www.kaggle.com/datasets/pypiahmad/ucf-youtube-action-data-set)
+   - Medium Article - [Medium Article Link]()
+   - 
+- `DM_Assignment_5_7.ipynb`: The Google Colab project for the Graph data EDA Assignment.
+   - Kaggle dataset - [Dataset Link](https://medium.com/@SriVinayA/dive-into-data-unveiling-the-depths-of-a-diving-video-dataset-ea3161b416f5)
+   - Medium Article - [Medium Article Link]()
 
-### Assignment 4.3
-- `DM_Assignment_4_3.ipynb`: The Google Colab project for the Apache Beam Assignment.
-- `dataset.csv`: Kaggle dataset utilized for the Apache Beam Assignment. [Dataset Link](https://www.kaggle.com/datasets/unitednations/international-greenhouse-gas-emissions)
