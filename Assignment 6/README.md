@@ -4,13 +4,13 @@ This README provides an overview of the Jupyter notebooks related to a series of
 
 ## Notebook Summaries
 
-### DM_Assignment_6_1
-### DM_Assignment_6_2
-### DM_Assignment_6_3
-### DM_Assignment_6_4
-### DM_Assignment_6_5
-### DM_Assignment_6_6
-### DM_Assignment_6_7
+- DM_Assignment_6_1
+- DM_Assignment_6_2
+- DM_Assignment_6_3
+- DM_Assignment_6_4
+- DM_Assignment_6_5
+- DM_Assignment_6_6
+- DM_Assignment_6_7
 
 ## Usage
 
