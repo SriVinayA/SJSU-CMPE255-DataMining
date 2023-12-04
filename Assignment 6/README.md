@@ -2,7 +2,7 @@
 
 This README provides an overview of the Jupyter notebooks related to a series of Data Mining assignments. Each notebook contains a set of tasks and analyses pertinent to various aspects of data mining techniques and methodologies.
 
-## Notebook Summaries
+## Files
 
 - DM_Assignment_6_1
 - DM_Assignment_6_2
