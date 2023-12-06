@@ -10,7 +10,7 @@ Using a research paper that was published in 2022-2023, perform the following:
 
 ## Assignment Deliverables
 
-Please note that all assignment deliverables are located within the `short_story` folder of this repository. The following is a list of the deliverables:
+Please note that all assignment deliverables are located within the `Short Story Assignment` folder of this repository. The following is a list of the deliverables:
 
 1. [README.md](https://github.com/SriVinayA/SJSU-CMPE255-DataMining/blob/main/Short%20Story%20Assignment/README.md): File in this repository detailing information about this assignment.
 2. [Exploring Large Language Model for Graph Data Understanding.pdf](https://arxiv.org/pdf/2307.05722.pdf): File in this repository that contains the research paper that was used for this assignment.
